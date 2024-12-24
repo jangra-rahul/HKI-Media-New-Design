@@ -1,0 +1,33 @@
+.skilling_bg {
+  background-image: url(../../assets/images/png/skilling_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.partners_bg {
+  background-image: url(../../assets/images/png/partners_bg.png);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.list_type {
+  list-style-type: disc !important; /* डॉट्स को दिखाने के लिए 'disc' का उपयोग करें */
+}
+
+.custom_AchievementSection_margin {
+  margin-top: -240px !important;
+}
+
+.animatica_slider .slick-dots li button:before {
+  font-size: 17px !important;
+  color: #ccc !important;
+}
+
+.animatica_slider .slick-dots li.slick-active button:before {
+  color: #e50a14 !important;
+}
+
+.animatica_slider .slick-dots {
+  bottom: -20px !important;
+}

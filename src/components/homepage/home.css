@@ -1,0 +1,85 @@
+.hero_bg {
+  background-image: url(../../assets/images/png/hero_bgImage.png);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.team_bg {
+  background-image: url(../../assets/images/png/team_bg_img.png);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.partners_bg {
+  background-image: url(../../assets/images/png/partners_bg.png);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.mySwiper .swiper-slide {
+  border-radius: 0; /* Round corners for all slides */
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3); /* Add shadow */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.mySwiper .swiper-slide-active {
+  transform: scale(1.05); /* Highlight active slide */
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.4); /* Stronger shadow */
+}
+
+.mySwiper .swiper-slide-prev,
+.mySwiper .swiper-slide-next {
+  transform: scale(0.9); /* Slightly smaller for adjacent slides */
+  opacity: 0.8; /* Fade adjacent slides */
+}
+
+.mySwiper .swiper-slide {
+  /* Style for the hidden cards */
+  transform: rotateY(0deg); /* Default flat rotation */
+}
+
+.mySwiper .swiper-slide:not(.swiper-slide-active) {
+  opacity: 0.7; /* Reduce opacity for non-active slides */
+}
+
+.mySwiper {
+  padding: 10px;
+  border-radius: 0 !important;
+}
+
+.footer_bg {
+  background-color: #111111;
+}
+
+input {
+  outline: none !important;
+  background-color: #151515;
+}
+
+.article_btn {
+  border: 1px solid #ffffff;
+  /* background-color: transparent !important; */
+}
+
+.video_btn {
+  /* background-color: white !important; */
+  border: 1px solid #fff;
+  color: #e50a14;
+  border-radius: 4px;
+}
+
+.video_btn,
+.article_btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.active-tab {
+  background-color: white;
+  color: #e50a14 !important;
+  border: 2px solid white !important;
+}

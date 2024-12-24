@@ -1,0 +1,24 @@
+.faq .accordion-button:not(.collapsed) {
+  background-color: #e50a14 !important;
+  box-shadow: 0px 0px transparent !important;
+  border: none !important;
+}
+
+.faq .accordion {
+  --bs-accordion-btn-focus-box-shadow: 0px 0px transparent !important;
+}
+
+.faq .accordion-button::after {
+  background-image: url(../../assets/images/svg/bottom_arrow.svg) !important;
+}
+
+.faq .accordion-item {
+  background-color: #e50a14 !important;
+  border: none !important;
+  border-radius: 8px !important;
+}
+
+.faq .accordion-button {
+  background-color: #454545 !important;
+  border-radius: 8px !important;
+}
